@@ -13,6 +13,10 @@ Some videos of this process:
 - [Remote Compute with AML Workbench Part B - Create a Custom Docker Base Image](https://youtu.be/WR0QBL4O61o)
 - [Remote Compute with AML Workbench Part C - Link a Remote GPU based VM and Run an Experiment](https://youtu.be/rdV1sgF77Is)
 
+## Getting Started
+
+In order to start create a new project in Azure Machine Learning Workbench and copy the files in this repo over to the new project directory. 
+
 ## Train
 
 This project contains source images (created with [VoTT](https://github.com/Microsoft/VoTT)) and code to train a model that can identify fluffy animals. 
