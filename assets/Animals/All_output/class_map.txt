@@ -1,0 +1,3 @@
+__background__	0
+Owlie	1
+Pengi	2

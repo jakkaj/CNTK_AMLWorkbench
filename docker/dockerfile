@@ -1,0 +1,26 @@
+#docker build -t jordo/mltest .
+FROM microsoft/mmlspark:plus-0.7.91
+
+USER root
+
+RUN apt-get update
+RUN apt-get -y install libpng-dev
+RUN apt-get -y install libjasper-dev
+RUN apt-get -y install build-essential checkinstall cmake pkg-config yasm gfortran git
+RUN apt-get -y install libjpeg8-dev libjasper-dev libpng12-dev
+# If you are using Ubuntu 14.04
+#sudo apt-get install libtiff4-dev
+# If you are using Ubuntu 16.04
+RUN apt-get -y install libtiff5-dev
+#RUN apt-get -y install libavcodec-dev libavformat-dev libswscale-dev libdc1394-22-dev
+#RUN apt-get -y install libxine2-dev libv4l-dev
+#RUN apt-get -y install libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev
+#RUN apt-get -y install libqt4-dev libgtk2.0-dev libtbb-dev
+#RUN apt-get -y install libatlas-base-dev
+#RUN apt-get -y install libfaac-dev libmp3lame-dev libtheora-dev
+#RUN apt-get -y install libvorbis-dev libxvidcore-dev
+#RUN apt-get -y install libopencore-amrnb-dev libopencore-amrwb-dev
+#RUN apt-get -y install x264 v4l-utils
+
+
+#RUN apt-get -y install libpng12

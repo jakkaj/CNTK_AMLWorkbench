@@ -1,0 +1,8 @@
+address: <ipAddress>
+baseDockerImage: jakkaj/mlgpu
+nativeSharedDirectory: ~/.azureml/share/
+password: AzureMlSecret=<not telling>
+sharedVolumes: true
+type: remotedocker
+username: jak
+nvidiaDocker: true
