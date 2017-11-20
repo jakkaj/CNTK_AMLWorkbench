@@ -5,6 +5,14 @@ The repo takes the [FasterRCNN](https://github.com/Microsoft/CNTK/tree/master/Ex
 - Derive a new docker container 
 - Configure Conda dependencies
 
+## Videos
+
+Some videos of this process:
+
+- [Remote Compute with AML Workbench Part A - Create a Data Science VM in Azure](https://youtu.be/ID55vVDv0R4)
+- [Remote Compute with AML Workbench Part B - Create a Custom Docker Base Image](https://youtu.be/WR0QBL4O61o)
+- [Remote Compute with AML Workbench Part C - Link a Remote GPU based VM and Run an Experiment](https://youtu.be/rdV1sgF77Is)
+
 ## Train
 
 This project contains source images (created with [VoTT](https://github.com/Microsoft/VoTT)) and code to train a model that can identify fluffy animals. 
